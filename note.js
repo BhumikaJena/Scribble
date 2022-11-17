@@ -47,7 +47,7 @@ function shownote(){
     if(notesobj.length != 0){
         yournotes.innerHTML=html;
     }else{
-        yournotes.innerHTML=`nothing to display`;
+        yournotes.innerHTML=`Nothing to display`;
     }
 }
 //Delete a note
